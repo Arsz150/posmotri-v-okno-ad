@@ -110,3 +110,49 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-size: 75px;
+  line-height: 0.94;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.search-form__fieldset-title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.content__card-link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.content__video-card-title {
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.content__video-card-description {
+  line-height: 0.9;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+}
