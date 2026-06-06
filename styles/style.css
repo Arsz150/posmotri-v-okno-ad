@@ -309,3 +309,9 @@ ol {
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
+
+.search-form__label,
+.button,
+.content__card-link {
+  cursor: pointer;
+}
